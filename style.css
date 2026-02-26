@@ -290,9 +290,9 @@ section {
 }
 
 .profile-pic {
-  width: 400px; /* Increased size - adjust this number to go bigger or smaller */
-  height: 400px; /* MUST be exactly the same as the width */
-  border-radius: 50%; /* Makes it a perfect circle */
+  width: 250px; /* Increased size - adjust this number to go bigger or smaller */
+  height: 250px; /* MUST be exactly the same as the width */
+  border-radius: 10%; /* Makes it a perfect circle */
   object-fit: cover; /* Fills the circle without squishing your photo */
   object-position: top; /* Ensures your face is centered in the circle */
 }
