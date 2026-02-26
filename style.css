@@ -286,19 +286,11 @@ section {
 }
 
 .about-pic {
-  height: 320px; /* Adjust this number up or down until it cuts off exactly above the hands */
-  width: 100%; /* Ensure it spans the width of its container, adjust if you have a fixed width */
-  object-fit: cover; /* This forces the image to crop instead of squish */
-  object-position: top; /* This keeps your face at the top and crops the excess off the bottom */
   border-radius: 2rem;
 }
 
 .profile-pic {
-  width: 250px; /* Increased size - adjust this number to go bigger or smaller */
-  height: 250px; /* MUST be exactly the same as the width */
-  border-radius: 10%; /* Makes it a perfect circle */
-  object-fit: cover; /* Fills the circle without squishing your photo */
-  object-position: top; /* Ensures your face is centered in the circle */
+  border-radius: 15rem;
 }
 
 .arrow {
