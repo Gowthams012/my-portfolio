@@ -290,8 +290,11 @@ section {
 }
 
 .profile-pic {
-  
-  border-radius: 15rem;
+  width: 350px; /* Adjust this value to make it bigger or smaller */
+  height: 350px; /* Must match the width */
+  border-radius: 50%; /* 50% is the standard way to make a perfect circle */
+  object-fit: cover; /* This crops the image to fit the circle perfectly */
+  object-position: top; /* Ensures your face stays in the frame */
 }
 
 .arrow {
